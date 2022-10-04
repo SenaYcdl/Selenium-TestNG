@@ -18,7 +18,7 @@ public class C02_HardAssert extends TestBaseBeforeMethodAfterMethod {
      */
 
 
-    @Test
+    @Test (groups = "gp1")
     public void test1(){
 
         //1-amazon anasayfaya gidin

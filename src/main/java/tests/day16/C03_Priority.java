@@ -28,7 +28,7 @@ priority kullanmaz isek default olarak 0 dir.(priority atanmayan @Test ilk olara
         driver.get("https://www.amazon.com");
     }
 
-    @Test (priority =-1)
+    @Test (priority =-1, groups = "gp1")
     public void testHepsiburada(){
         driver.get("https://www.hepsiburada.com");
     }

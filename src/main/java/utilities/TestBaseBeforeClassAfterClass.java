@@ -13,7 +13,7 @@ public abstract class TestBaseBeforeClassAfterClass {
     // @BeforeClass ve @AfterClass notasyonlarını TestNG de kullanırken JUnit'teki gibi static yapmaya gerek yoktur
 
 
-    @BeforeClass
+    @BeforeClass (groups = "gp1")
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -22,7 +22,7 @@ public abstract class TestBaseBeforeClassAfterClass {
     }
 
 
-    @AfterClass
+    @AfterClass (groups = "gp1")
     public void tearDown() {
 
         //driver.quit();

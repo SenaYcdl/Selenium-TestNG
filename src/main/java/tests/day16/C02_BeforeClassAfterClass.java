@@ -14,7 +14,7 @@ public class C02_BeforeClassAfterClass extends TestBaseBeforeClassAfterClass {
     public void testAmazon() {
         driver.get("https://www.amazon.com");
     }
-    @Test
+    @Test (groups = "gp1")
     public void testBestBuy() {
         driver.get("https://www.bestbuy.com");
     }
