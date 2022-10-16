@@ -1,0 +1,5 @@
+2022-10-15 22:51:43,921 INFO t.d.C01_ScreenShotReusableMethod [main] Hepsi Burada sitesine gidiyor
+2022-10-15 22:51:52,439 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2022-10-15 22:51:52,444 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2022-10-15 22:51:52,444 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2022-10-15 22:51:52,448 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5d5b5fa7
