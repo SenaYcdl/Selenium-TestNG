@@ -13,7 +13,7 @@ public class Log4jTest2 {
         logger.info("LOG INFO");
         logger.debug("LOG DEBUG");
         logger.error("LOG ERROR");
-        logger.fatal("LOG FATAL");
+        logger.fatal("LOG FATAL" );
         logger.warn("LOG WARN");
     }
 }
